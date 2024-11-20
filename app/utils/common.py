@@ -5,7 +5,7 @@ from typing import List
 from dotenv import load_dotenv
 from jose import jwt
 from datetime import datetime, timedelta
-from app.config import ADMIN_PASSWORD, ADMIN_USER, ALGORITHM, SECRET_KEY
+from config import ADMIN_PASSWORD, ADMIN_USER, ALGORITHM, SECRET_KEY
 import validators  # Make sure to install this package
 from urllib.parse import urlparse, urlunparse
 
